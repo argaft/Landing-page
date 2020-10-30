@@ -36,8 +36,14 @@
     background-color:#0499f2 !important;
 }
 
+.sectionslide0{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .sectionslide1 {
-    margin-top: 10px;
+    width: auto;
+    height: 500px;
     background: rgb(34,195,172);
     background: linear-gradient(72deg, rgba(34,195,172,1) 0%, rgba(34,116,254,1) 100%);
 }
@@ -91,9 +97,8 @@
 
 .ajukansimulasi {
     font-size: medium;
-    color: white;
-    border-radius: 25px;
-    border-color: white;
+    background-color: #0499f2;
+    border-color: #0499f2;
     border-width: 2px;
 }
 
@@ -112,13 +117,46 @@
 
 .benefit {
     font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-left: auto;
 }
 
 .benefitfont{
     font-size: 20px;
+    margin-left: auto;
 }
 
 .marginpeta {
     margin-left: 330px;
     margin-top: 50px;
+}
+
+.petabackground {
+    background: #f9f9f9;
+    width: auto;
+}
+
+.fontslide4 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.sectionslide4{
+    background-color: rgb(9, 138, 221);
+    width: auto;
+    height: 600px;
+}
+
+.btn {
+    background-color: rgb(9, 138, 221);
+    border-color: white;
+    border-radius: 25px;
+    border-width: 3px;
+}
+
+.kotak {
+    font-family: 'Roboto Slab', serif;
+    background-color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
 }
