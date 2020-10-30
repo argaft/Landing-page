@@ -97,14 +97,14 @@
 
 .ajukansimulasi {
     font-size: medium;
-    background-color: #0499f2;
-    border-color: #0499f2;
+    background-color: #0499f2 !important; 
+    border-color: #0499f2 !important;
     border-width: 2px;
 }
 
 .ajukansimulasi:hover {
-    background-color: #42dee1;
-    border-color: #42dee1;
+    background-color: #42dee1 !important;
+    border-color: #42dee1 !important;
     border-width: 2px;
     color: white;
 }
