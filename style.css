@@ -1,0 +1,116 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+.navbar-brand{
+    align-content: center;
+}
+
+.nav-link {
+    font-size: 16px;
+    /* font-style: italic; */
+    font-weight: bold;
+    color: cyan;
+    margin-right: 15px;
+    align-content: right;
+}
+
+.nav-link:hover{
+    background-color: #0278ae;
+    background-image: linear-gradient(45deg, #0278ae, #51adcf);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.nav-follow {
+    color:rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: white !important;
+    border-width: 2px;
+    border-color:#0499f2 !important;
+}
+.nav-follow:hover {
+    background-color:#0499f2 !important;
+}
+
+.sectionslide1 {
+    margin-top: 10px;
+    background: rgb(34,195,172);
+    background: linear-gradient(72deg, rgba(34,195,172,1) 0%, rgba(34,116,254,1) 100%);
+}
+
+.garis {
+    width: 3px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
+
+.kiri {
+    margin-left: -50px !important;
+}
+
+.bulat {
+    border-radius: 100%;
+    width: 125px;
+    height: 125px;
+    background: linear-gradient(112deg, rgba(43,142,209,1) 0%, rgba(4,153,242,1) 24%, rgba(17,159,243,1) 56%, rgba(51,174,251,1) 100%);
+}
+
+.bulatsempurna {
+    margin-top: 20px    ;
+}
+
+.animasiicon {
+    transition: all 0.5s;
+}
+
+.animasiicon:hover {
+    margin-top: -10px;
+}
+
+.warnafont {
+    color: #0499f2;
+}
+
+.judulsimulasigratis {
+}
+
+.fonttebal {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.ajukansimulasi {
+    font-size: medium;
+    color: white;
+    border-radius: 25px;
+    border-color: white;
+    border-width: 2px;
+}
+
+.ajukansimulasi:hover {
+    background-color: #42dee1;
+    border-color: #42dee1;
+    border-width: 2px;
+    color: white;
+}
+
+/* .sectionslide0 {
+    height: 400px;
+    background: rgb(43,142,209);
+    background: linear-gradient(112deg, rgba(43,142,209,1) 0%, rgba(4,153,242,1) 24%, rgba(17,159,243,1) 56%, rgba(51,174,251,1) 100%);
+} */
+
+.benefit {
+    font-family: 'Bree Serif', serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.benefitfont{
+    font-size: 20px;
+}
