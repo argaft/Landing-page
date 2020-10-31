@@ -42,9 +42,13 @@
 
 .sectionslide1 {
     width: auto;
-    height: 500px;
+    height: 600px;
     background: rgb(34,195,172);
     background: linear-gradient(72deg, rgba(34,195,172,1) 0%, rgba(34,116,254,1) 100%);
+}
+
+.sectionslide2 {
+    width: auto;
 }
 
 .sectionslide3 {
@@ -124,7 +128,7 @@
 }
 
 .marginpeta {
-    margin-left: 330px;
+    margin-left: auto;
     margin-top: 50px;
 }
 
@@ -189,3 +193,13 @@
     background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 }
+
+/* 
+.marginfooter {
+    margin-right: 50px;
+} */
+
+/* .rata {
+    font-family: 'Roboto Slab', serif;
+    text-align: justify;
+} */
