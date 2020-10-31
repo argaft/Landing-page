@@ -116,6 +116,20 @@
     color: white;
 }
 
+.hubungikami {
+    font-size: medium;
+    background-color: #0499f2 !important; 
+    border-color: #0499f2 !important;
+    border-width: 2px;
+}
+
+.hubungikami:hover {
+    background-color: #42dee1 !important;
+    border-color: #42dee1 !important;
+    border-width: 2px;
+    color: white;
+}
+
 .benefit {
     font-family: 'Roboto Slab', serif;
     text-align: center;
@@ -133,6 +147,7 @@
 }
 
 .petabackground {
+    height: 1200px;
     background: #f9f9f9;
     width: auto;
 }
@@ -144,7 +159,7 @@
 .sectionslide4{
     background-color: rgb(9, 138, 221);
     width: auto;
-    height: 650px;
+    height: 700px;
 }
 
 .btn {
@@ -158,7 +173,7 @@
     font-family: 'Roboto Slab', serif;
     background-color: white;
     border-radius: 25px;
-    width: 200px;
+    width: 250px;
     height: 250px;
 }
 
@@ -203,3 +218,9 @@
     font-family: 'Roboto Slab', serif;
     text-align: justify;
 } */
+
+.sectionslide5 {
+    width: auto;
+    height: 700px;
+    background-color:#f9f9f9;
+}
