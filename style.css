@@ -36,9 +36,8 @@
     background-color:#0499f2 !important;
 }
 
-.sectionslide0{
-    margin-left: auto;
-    margin-right: auto;
+.sectionslide0 {
+    width: auto;
 }
 
 .sectionslide1 {
@@ -46,6 +45,10 @@
     height: 500px;
     background: rgb(34,195,172);
     background: linear-gradient(72deg, rgba(34,195,172,1) 0%, rgba(34,116,254,1) 100%);
+}
+
+.sectionslide3 {
+    width: auto;
 }
 
 .garis {
@@ -109,12 +112,6 @@
     color: white;
 }
 
-/* .sectionslide0 {
-    height: 400px;
-    background: rgb(43,142,209);
-    background: linear-gradient(112deg, rgba(43,142,209,1) 0%, rgba(4,153,242,1) 24%, rgba(17,159,243,1) 56%, rgba(51,174,251,1) 100%);
-} */
-
 .benefit {
     font-family: 'Roboto Slab', serif;
     text-align: center;
@@ -143,7 +140,7 @@
 .sectionslide4{
     background-color: rgb(9, 138, 221);
     width: auto;
-    height: 600px;
+    height: 650px;
 }
 
 .btn {
@@ -159,4 +156,15 @@
     border-radius: 25px;
     width: 200px;
     height: 250px;
+}
+
+.fontrgb {
+    color: rgb(0,212,255);
+    color: linear-gradient(90deg, rgba(0,212,255,1) 16%, rgba(63,63,255,1) 100%) !important;
+}
+
+.sectionslide5 {
+    background-color: white;
+    height: 650px;
+    width: auto;
 }

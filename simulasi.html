@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link
+           rel="stylesheet"
+           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+           />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&family=PT+Bree+SerifSans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+        <!-- My CSS -->
+        <link rel="stylesheet" href="style.css">
+        <title>Bank pinjaman</title>
+     </head>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+           <div class="container">
+              <a class="navbar-brand" href="#"><img src="https://www.klikbpkb.com/assets/images/Logo%20Klik/web.svg" width="240" height="50"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                 <div class="navbar-nav ml-auto">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="simulasi.html">Ajukan Simulasi</a>
+                    <a class="nav-link" href="#">Prestasi</a>
+                    <a class="nav-follow btn btn-primary" href="simulasi.html">Mari Bergabung</a>
+                 </div>
+              </div>
+           </div>
+        </nav>
+      
+        <header>
+         <div class="container text-center mt-5">
+         <h2 class="text-primary">Pengajuan Simulasi</h2>
+         <img class="mt-5" src="img/form.svg"alt="" width="auto" height="400px">
+         </div>
+         </header>
+
+         <main class="mt-5">
+            <section id="card">
+            <div class="col-lg-8 offset-lg-2">
+            <div class="card">
+            <div class="card-body">
+            <form id="simulasi_mobil">
+            <div class="form-group">
+            <label>Email</label>
+            <input id="email" name="email" type="email" class="form-control" placeholder="Masukan Email Anda" required="">
+            </div>
+            <div class="form-group">
+            <label>Nama</label>
+            <input id="name" name="name" type="text" class="form-control" placeholder="Masukan Nama Anda" required="">
+            </div>
+            <div class="form-group">
+            <label>Jumlah Ekspetasi Pinjaman</label>
+            <input id="amount" name="amount" type="number" class="form-control" placeholder="Masukan Ekspetasi Jumlah Pinjaman" required="">
+            </div>
+            <div class="form-group">
+            <label>Nomor HP</label>
+            <input id="phone_number" name="phone_number" type="number" class="form-control" placeholder="Masukan Nomor HP Anda" required="">
+            </div>
+            <div class="form-group">
+             <label>Plat Nomor Kendaraan</label>
+            <input id="vehicle_number" name="vehicle_number" type="text" class="form-control" placeholder="Masukan Nomor Kendaraan Anda" required="">
+            </div>
+            <div class="form-group">
+            <label>Nomor HP Lainnya</label>
+            <input id="other_phone_number" name="other_phone_number" type="number" class="form-control" placeholder="Masukan Nomor HP Lainnya">
+            </div>
+            <div class="form-group">
+            <label>Alamat</label>
+            <input id="address" name="address" type="text" class="form-control" placeholder="Masukan Alamat Anda" required="">
+            </div>
+            <div class="form-group">
+            <label>Kota</label>
+            <select id="city" name="city_id" class="custom-select select2-hidden-accessible" tabindex="-1" aria-hidden="true">
+            <option value="">Pilih Kota</option>
+            
+                        <option value="1">Kota Banda Aceh</option>
+                      
+                        <option value="2">Kota Sabang</option>
+                      
+                        <option value="3">Kota Lhokseumawe</option>
+                      
+                        <option value="4">Kota Langsa</option>
+                      
+                        <option value="5">Kota Subulussalam</option>
+                      
+                        <option value="6">Kab. Aceh Selatan</option>
+                      
+                        <option value="7">Kab. Aceh Tenggara</option>
+                      
+                        <option value="8">Kab. Aceh Timur</option>
+                      
+                        <option value="9">Kab. Aceh Tengah</option>
+                      
+                        <option value="10">Kab. Aceh Barat</option>
+                      
+                        <option value="11">Kab. Aceh Besar</option>
+                      
+                        <option value="12">Kab. Pidie</option>
+                      
+                        <option value="13">Kab. Aceh Utara</option>
+                      
+                        <option value="14">Kab. Simeulue</option>
+                      
+                        <option value="15">Kab. Aceh Singkil</option>
+                      
+                        <option value="16">Kab. Bireun</option>
+                      
+                        <option value="17">Kab. Aceh Barat Daya</option>
+                      
+                        <option value="18">Kab. Gayo Lues</option>
+                      
+                        <option value="19">Kab. Aceh Jaya</option>
+                      
+                        <option value="20">Kab. Nagan Raya</option>
+                      
+                        <option value="21">Kab. Aceh Tamiang</option>
+                      
+                        <option value="22">Kab. Bener Meriah</option>
+                      
+                        <option value="23">Kab. Pidie Jay</option>
+                      
+                        <option value="24">Kota Medan</option>
+                      
+                        <option value="25">Kota Pematang Siantar</option>
+                      
+                        <option value="26">Kota Sibolga</option>
+                      
+                        <option value="27">Kota Tanjung Balai</option>
+                      
+                        <option value="28">Kota Binjai</option>
+                      
+                        <option value="29">Kota Tebing Tinggi</option>
+                      
+                        <option value="30">Kota Padang Sidempuan</option>
+                      
+                        <option value="31">Kota Gunung Sitoli</option>
+                      
+                        <option value="32">Kab. Serdang Bedagai</option>
+                      
+                        <option value="33">Kab. Samosir </option>
+                      
+                        <option value="34">Kab. Humbang Hasundutan</option>
+                      
+                        <option value="35">Kab. Pakpak Bharat</option>
+                      
+                        <option value="36">Kab. Nias Selatan</option>
+                      
+                        <option value="37">Kab. Mandailing Natal</option>
+                      
+                        <option value="38">Kab. Toba Samosir</option>
+                      
+                        <option value="39">Kab. Dairi</option>
+                      
+                        <option value="40">Kab. Labuhan Batu</option>
+                      
+                        <option value="41">Kab. Asahan</option>
+                      
+                        <option value="42">Kab. Simalungun</option>
+                      
+                        <option value="43">Kab. Deli Serdang</option>
+                      
+                        <option value="44">Kab. Karo</option>
+                      
+                        <option value="45">Kab. Langkat</option>
+                      
+                        <option value="46">Kab. Nias</option>
+                      
+                        <option value="47">Kab. Tapanuli Selatan</option>
+                      
+                        <option value="48">Kab. Tapanuli Utara</option>
+                      
+                        <option value="49">Kab. Tapanuli Tengah</option>
+                      
+                        <option value="50">Kab. Batu Bara</option>
+                      
+                        <option value="51">Kab. Padang Lawas Utara</option>
+                      
+                        <option value="52">Kab. Padang Lawas</option>
+                      
+                        <option value="53">Kab. Labuhanbatu Selatan</option>
+                      
+                        <option value="54">Kab. Labuhanbatu Utara</option>
+                      
+                        <option value="55">Kab. Nias Utara</option>
+                      
+                        <option value="56">Kab. Nias Bara</option>
+                      
+                        <option value="57">Kota Padang</option>
+                      
+                        <option value="58">Kota Solok</option>
+                      
+                        <option value="59">Kota Sawhlunto</option>
+                      
+                        <option value="60">Kota Padang Panjang</option>
+                      
+                        <option value="61">Kota Bukittinggi</option>
+                      
+                        <option value="62">Kota Payakumbuh</option>
+                      
+                        <option value="63">Kota Pariaman</option>
+                      
+                        <option value="64">Kab. Pasaman Barat</option>
+                      
+                        <option value="65">Kab. Solok Selatan</option>
+                      
+                        <option value="66">Kab. Dharmasraya</option>
+                      
+                        <option value="67">Kab. Kepulauan Mentawai</option>
+                      
+                        <option value="68">Kab. Pasaman</option>
+                      
+                        <option value="69">Kab. Lima Puluh Kota</option>
+                      
+                        <option value="70">Kab. Agam</option>
+                      
+                        <option value="71">Kab. Padang Pariaman</option>
+                      
+                        <option value="72">Kab. Tanah Datar</option>
+                      
+                        <option value="73">Kab. Sijunjung</option>
+                      
+                        <option value="74">Kab. Solok</option>
+                      
+                        <option value="75">Kab. Pesisir Selata</option>
+                      
+                        <option value="76">Kota Pekan Baru</option>
+                      
+                        <option value="77">Kota Dumai</option>
+                      
+                        <option value="78">Kab. Kepulauan Meranti</option>
+                      
+                        <option value="79">Kab. Kuantan Singingi</option>
+                      
+                        <option value="80">Kab. Siak</option>
+                      
+                        <option value="81">Kab. Rokan Hilir</option>
+                      
+                        <option value="82">Kab. Rokan Hulu</option>
+                      
+                        <option value="83">Kab. Pelalawan</option>
+                      
+                        <option value="84">Kab. Indragiri Hilir</option>
+                      
+                        <option value="85">Kab. Bengkalis</option>
+                      
+                        <option value="86">Kab. Indragiri Hulu</option>
+                      
+                        <option value="87">Kab. Kampa</option>
+                      
+                        <option value="88">Kota Jambi</option>
+                      
+                        <option value="89">Kota Sungai Penuh</option>
+                      
+                        <option value="90">Kab. Tebo</option>
+                      
+                        <option value="91">Kab. Bungo</option>
+                      
+                        <option value="92">Kab. Tanjung Jabung Timur</option>
+                      
+                        <option value="93">Kab. Tanjung Jabung Barat</option>
+                      
+                        <option value="94">Kab. Muaro Jambi</option>
+                      
+                        <option value="95">Kab. Batanghari</option>
+                      
+                        <option value="96">Kab. Sarolangun</option>
+                      
+                        <option value="97">Kab. Merangin</option>
+                      
+                        <option value="98">Kab. Kerinc</option>
+                      
+                        <option value="99">Kota Palembang</option>
+                      
+                        <option value="100">Kota Pagar Alam</option>
+                      
+                        <option value="101">Kota Lubuk Linggau</option>
+                      
+                        <option value="102">Kota Prabumulih</option>
+                      
+                        <option value="103">Kab. Musi Rawas Utara</option>
+                      
+                        <option value="104">Kab. Penukal Abab Lematang Ilir</option>
+                      
+                        <option value="105">Kab. Empat Lawang</option>
+                      
+                        <option value="106">Kab. Ogan Ilir </option>
+                      
+                        <option value="107">Kab. Ogan Komering Ulu Selatan </option>
+                      
+                        <option value="108">Kab. Ogan Komering Ulu Timur </option>
+                      
+                        <option value="109">Kab. Banyuasin</option>
+                      
+                        <option value="110">Kab. Musi Banyuasin</option>
+                      
+                        <option value="111">Kab. Musi Rawas</option>
+                      
+                        <option value="112">Kab. Lahat</option>
+                      
+                        <option value="113">Kab. Muara Enim</option>
+                      
+                        <option value="114">Kab. Ogan Komering Ilir</option>
+                      
+                        <option value="115">Kab. Ogan Komering Ul</option>
+                      
+                        <option value="116">Kota Bengkulu</option>
+                      
+                        <option value="117">Kab. Bengkulu Tengah</option>
+                      
+                        <option value="118">Kab. Kepahiang </option>
+                      
+                        <option value="119">Kab. Lebong</option>
+                      
+                        <option value="120">Kab. Muko Muko</option>
+                      
+                        <option value="121">Kab. Seluma</option>
+                      
+                        <option value="122">Kab. Kaur</option>
+                      
+                        <option value="123">Kab. Bengkulu Utara</option>
+                      
+                        <option value="124">Kab. Rejang Lebong</option>
+                      
+                        <option value="125">Kab. Bengkulu Selata</option>
+                      
+                        <option value="126">Kota Bandar Lampung</option>
+                      
+                        <option value="127">Kota Metro</option>
+                      
+                        <option value="128">Kab. Pesisir Barat</option>
+                      
+                        <option value="129">Kab. Tulangbawang Barat</option>
+                      
+                        <option value="130">Kab. Mesuji</option>
+                      
+                        <option value="131">Kab. Pringsewu</option>
+                      
+                        <option value="132">Kab. Pesawaran</option>
+                      
+                        <option value="133">Kab. Way Kanan</option>
+                      
+                        <option value="134">Kab. Lampung Timur</option>
+                      
+                        <option value="135">Kab. Tanggamus</option>
+                      
+                        <option value="136">Kab. Tulang Bawang</option>
+                      
+                        <option value="137">Kab. Lampung Barat</option>
+                      
+                        <option value="138">Kab. Lampung Utara</option>
+                      
+                        <option value="139">Kab. Lampung Tengah</option>
+                      
+                        <option value="140">Kab. Lampung Selata</option>
+                      
+                        <option value="141">Kota Pangkal Pinang</option>
+                      
+                        <option value="142">Kab. Belitung Timur</option>
+                      
+                        <option value="143">Kab. Bangka Barat</option>
+                      
+                        <option value="144">Kab. Bangka Tengah</option>
+                      
+                        <option value="145">Kab. Bangka Selatan</option>
+                      
+                        <option value="146">Kab. Belitung</option>
+                      
+                        <option value="147">Kab. Bangk</option>
+                      
+                        <option value="148">Kota Batam</option>
+                      
+                        <option value="149">Kota Tanjung Pinang</option>
+                      
+                        <option value="150">Kab. Kepulauan Anambas</option>
+                      
+                        <option value="151">Kab. Lingga </option>
+                      
+                        <option value="152">Kab. Natuna</option>
+                      
+                        <option value="153">Kab. Karimun</option>
+                      
+                        <option value="154">Kab. Binta</option>
+                      
+                        <option value="155">Kota Jakarta Timur</option>
+                      
+                        <option value="156">Kota Jakarta Selatan</option>
+                      
+                        <option value="157">Kota Jakarta Barat</option>
+                      
+                        <option value="158">Kota Jakarta Utara</option>
+                      
+                        <option value="159">Kota Jakarta Pusat</option>
+                      
+                        <option value="160">Kab. Kepulauan Serib</option>
+                      
+                        <option value="161">Kota Bandung</option>
+                      
+                        <option value="162">Kota Banjar</option>
+                      
+                        <option value="163">Kota Tasikmalaya</option>
+                      
+                        <option value="164">Kota Cimahi</option>
+                      
+                        <option value="165">Kota Depok</option>
+                      
+                        <option value="166">Kota Bekasi</option>
+                      
+                        <option value="167">Kota Cirebon</option>
+                      
+                        <option value="168">Kota Sukabumi</option>
+                      
+                        <option value="169">Kota Bogor</option>
+                      
+                        <option value="170">Kab. Pangandaran</option>
+                      
+                        <option value="171">Kab. Bandung Barat</option>
+                      
+                        <option value="172">Kab. Bekasi</option>
+                      
+                        <option value="173">Kab. Karawang</option>
+                      
+                        <option value="174">Kab. Purwakarta</option>
+                      
+                        <option value="175">Kab. Subang</option>
+                      
+                        <option value="176">Kab. Indramayu</option>
+                      
+                        <option value="177">Kab. Sumedang</option>
+                      
+                        <option value="178">Kab. Majalengka</option>
+                      
+                        <option value="179">Kab. Cirebon</option>
+                      
+                        <option value="180">Kab. Kuningan</option>
+                      
+                        <option value="181">Kab. Ciamis</option>
+                      
+                        <option value="182">Kab. Tasikmalaya</option>
+                      
+                        <option value="183">Kab. Garut</option>
+                      
+                        <option value="184">Kab. Bandung</option>
+                      
+                        <option value="185">Kab. Cianjur</option>
+                      
+                        <option value="186">Kab. Sukabumi</option>
+                      
+                        <option value="187">Kab. Bogo</option>
+                      
+                        <option value="188">Kota Semarang</option>
+                      
+                        <option value="189">Kota Tegal</option>
+                      
+                        <option value="190">Kota Pekalongan</option>
+                      
+                        <option value="191">Kota Salatiga</option>
+                      
+                        <option value="192">Kota Surakarta</option>
+                      
+                        <option value="193">Kota Magelang</option>
+                      
+                        <option value="194">Kab. Brebes</option>
+                      
+                        <option value="195">Kab. Tegal</option>
+                      
+                        <option value="196">Kab. Pemalang</option>
+                      
+                        <option value="197">Kab. Pekalongan</option>
+                      
+                        <option value="198">Kab. Batang</option>
+                      
+                        <option value="199">Kab. Kendal</option>
+                      
+                        <option value="200">Kab. Temanggung</option>
+                      
+                        <option value="201">Kab. Semarang</option>
+                      
+                        <option value="202">Kab. Demak</option>
+                      
+                        <option value="203">Kab. Jepara</option>
+                      
+                        <option value="204">Kab. Kudus</option>
+                      
+                        <option value="205">Kab. Pati</option>
+                      
+                        <option value="206">Kab. Rembang</option>
+                      
+                        <option value="207">Kab. Blora</option>
+                      
+                        <option value="208">Kab. Grobogan</option>
+                      
+                        <option value="209">Kab. Sragen</option>
+                      
+                        <option value="210">Kab. Karanganyar</option>
+                      
+                        <option value="211">Kab. Wonogiri</option>
+                      
+                        <option value="212">Kab. Sukoharjo</option>
+                      
+                        <option value="213">Kab. Klaten</option>
+                      
+                        <option value="214">Kab. Boyolali</option>
+                      
+                        <option value="215">Kab. Magelang</option>
+                      
+                        <option value="216">Kab. Wonosobo</option>
+                      
+                        <option value="217">Kab. Purworejo</option>
+                      
+                        <option value="218">Kab. Kebumen</option>
+                      
+                        <option value="219">Kab. Banjarnegara</option>
+                      
+                        <option value="220">Kab. Purbalingga</option>
+                      
+                        <option value="221">Kab. Banyumas</option>
+                      
+                        <option value="222">Kab. Cilaca</option>
+                      
+                        <option value="223">Kota Yogyakarta</option>
+                      
+                        <option value="224">Kab. Sleman</option>
+                      
+                        <option value="225">Kab. Gunung Kidul</option>
+                      
+                        <option value="226">Kab. Bantul</option>
+                      
+                        <option value="227">Kab. Kulon Prog</option>
+                      
+                        <option value="228">Kota Surabaya</option>
+                      
+                        <option value="229">Kota Batu</option>
+                      
+                        <option value="230">Kota Madiun</option>
+                      
+                        <option value="231">Kota Mojokerto</option>
+                      
+                        <option value="232">Kota Pasuruan</option>
+                      
+                        <option value="233">Kota Probolinggo</option>
+                      
+                        <option value="234">Kota Malang</option>
+                      
+                        <option value="235">Kota Blitar</option>
+                      
+                        <option value="236">Kota Kediri</option>
+                      
+                        <option value="237">Kab. Sumenep</option>
+                      
+                        <option value="238">Kab. Pamekasan</option>
+                      
+                        <option value="239">Kab. Sampang</option>
+                      
+                        <option value="240">Kab. Bangkalan</option>
+                      
+                        <option value="241">Kab. Gresik</option>
+                      
+                        <option value="242">Kab. Lamongan</option>
+                      
+                        <option value="243">Kab. Tuban</option>
+                      
+                        <option value="244">Kab. Bojonegoro</option>
+                      
+                        <option value="245">Kab. Ngawi</option>
+                      
+                        <option value="246">Kab. Magetan</option>
+                      
+                        <option value="247">Kab. Madiun</option>
+                      
+                        <option value="248">Kab. Nganjuk</option>
+                      
+                        <option value="249">Kab. Jombang</option>
+                      
+                        <option value="250">Kab. Mojokerto</option>
+                      
+                        <option value="251">Kab. Sidoarjo</option>
+                      
+                        <option value="252">Kab. Pasuruan</option>
+                      
+                        <option value="253">Kab. Probolinggo</option>
+                      
+                        <option value="254">Kab. Situbondo</option>
+                      
+                        <option value="255">Kab. Bondowoso</option>
+                      
+                        <option value="256">Kab. Banyuwangi</option>
+                      
+                        <option value="257">Kab. Jember</option>
+                      
+                        <option value="258">Kab. Lumajang</option>
+                      
+                        <option value="259">Kab. Malang</option>
+                      
+                        <option value="260">Kab. Kediri</option>
+                      
+                        <option value="261">Kab. Blitar</option>
+                      
+                        <option value="262">Kab. Tulungagung</option>
+                      
+                        <option value="263">Kab. Trenggalek</option>
+                      
+                        <option value="264">Kab. Ponorogo</option>
+                      
+                        <option value="265">Kab. Pacita</option>
+                      
+                        <option value="266">Kota Serang</option>
+                      
+                        <option value="267">Kota Cilegon</option>
+                      
+                        <option value="268">Kota Tangerang</option>
+                      
+                        <option value="269">Kota Tangerang Selatan</option>
+                      
+                        <option value="270">Kab. Serang</option>
+                      
+                        <option value="271">Kab. Tangerang</option>
+                      
+                        <option value="272">Kab. Lebak</option>
+                      
+                        <option value="273">Kab. Pandeglan</option>
+                      
+                        <option value="274">Kota Denpasar</option>
+                      
+                        <option value="275">Kab. Buleleng</option>
+                      
+                        <option value="276">Kab. Karangasem</option>
+                      
+                        <option value="277">Kab. Bangli</option>
+                      
+                        <option value="278">Kab. Klungkung</option>
+                      
+                        <option value="279">Kab. Gianyar</option>
+                      
+                        <option value="280">Kab. Badung</option>
+                      
+                        <option value="281">Kab. Tabanan</option>
+                      
+                        <option value="282">Kab. Jembran</option>
+                      
+                        <option value="283">Kota Mataram</option>
+                      
+                        <option value="284">Kota Bima</option>
+                      
+                        <option value="285">Kab. Lombok Utara</option>
+                      
+                        <option value="286">Kab. Sumbawa Barat</option>
+                      
+                        <option value="287">Kab. Bima</option>
+                      
+                        <option value="288">Kab. Dompu</option>
+                      
+                        <option value="289">Kab. Sumbawa </option>
+                      
+                        <option value="290">Kab. Lombok Timur</option>
+                      
+                        <option value="291">Kab. Lombok Tengah</option>
+                      
+                        <option value="292">Kab. Lombok Bara</option>
+                      
+                        <option value="293">Kota Kupang</option>
+                      
+                        <option value="294">Kab. Malaka</option>
+                      
+                        <option value="295">Kab. Sabu Raijua</option>
+                      
+                        <option value="296">Kab. Manggarai Timur</option>
+                      
+                        <option value="297">Kab. Sumba Barat Daya</option>
+                      
+                        <option value="298">Kab. Sumba Tengah</option>
+                      
+                        <option value="299">Kab. Nagekeo</option>
+                      
+                        <option value="300">Kab. Manggarai Barat</option>
+                      
+                        <option value="301">Kab. Rote Ndao</option>
+                      
+                        <option value="302">Kab. Lembata</option>
+                      
+                        <option value="303">Kab. Sumba Barat</option>
+                      
+                        <option value="304">Kab. Sumba Timur</option>
+                      
+                        <option value="305">Kab. Manggarai</option>
+                      
+                        <option value="306">Kab. Ngada</option>
+                      
+                        <option value="307">Kab. Ende</option>
+                      
+                        <option value="308">Kab. Sikka</option>
+                      
+                        <option value="309">Kab. Flores Timur</option>
+                      
+                        <option value="310">Kab. Alor</option>
+                      
+                        <option value="311">Kab. Belu</option>
+                      
+                        <option value="312">Kab. Timor Tengah Utara</option>
+                      
+                        <option value="313">Kab. Timor Tengah Selatan</option>
+                      
+                        <option value="314">Kab. Kupan</option>
+                      
+                        <option value="315">Kota Pontianak</option>
+                      
+                        <option value="316">Kota Singkawang</option>
+                      
+                        <option value="317">Kab. Kubu Raya</option>
+                      
+                        <option value="318">Kab. Kayong Utara</option>
+                      
+                        <option value="319">Kab. Sekadau</option>
+                      
+                        <option value="320">Kab. Melawi</option>
+                      
+                        <option value="321">Kab. Landak</option>
+                      
+                        <option value="322">Kab. Bengkayang</option>
+                      
+                        <option value="323">Kab. Kapuas Hulu</option>
+                      
+                        <option value="324">Kab. Sintang </option>
+                      
+                        <option value="325">Kab. Ketapang</option>
+                      
+                        <option value="326">Kab. Sanggau </option>
+                      
+                        <option value="327">Kab. Mempawah</option>
+                      
+                        <option value="328">Kab. Samba</option>
+                      
+                        <option value="329">Kota Palangkaraya</option>
+                      
+                        <option value="330">Kab. Barito Timur</option>
+                      
+                        <option value="331">Kab. Murung Raya</option>
+                      
+                        <option value="332">Kab. Pulang Pisau</option>
+                      
+                        <option value="333">Kab. Gunung Mas</option>
+                      
+                        <option value="334">Kab. Lamandau</option>
+                      
+                        <option value="335">Kab. Sukamara</option>
+                      
+                        <option value="336">Kab. Seruyan</option>
+                      
+                        <option value="337">Kab. Katingan</option>
+                      
+                        <option value="338">Kab. Barito Utara</option>
+                      
+                        <option value="339">Kab. Barito Selatan</option>
+                      
+                        <option value="340">Kab. Kapuas</option>
+                      
+                        <option value="341">Kab. Kotawaringin Timur</option>
+                      
+                        <option value="342">Kab. Kotawaringin Bara</option>
+                      
+                        <option value="343">Kota Banjarmasin</option>
+                      
+                        <option value="344">Kota Banjarbaru</option>
+                      
+                        <option value="345">Kab. Balangan</option>
+                      
+                        <option value="346">Kab. Tanah Bambu</option>
+                      
+                        <option value="347">Kab. Tabalong</option>
+                      
+                        <option value="348">Kab. Hulu Sungai Utara</option>
+                      
+                        <option value="349">Kab. Hulu Sungai Tengah</option>
+                      
+                        <option value="350">Kab. Hulu Sungai Selatan</option>
+                      
+                        <option value="351">Kab. Tapin</option>
+                      
+                        <option value="352">Kab. Barito Kuala</option>
+                      
+                        <option value="353">Kab. Banjar Baru</option>
+                      
+                        <option value="354">Kab. Kotabaru</option>
+                      
+                        <option value="355">Kab. Tanah Lau</option>
+                      
+                        <option value="356">Kota Samarinda</option>
+                      
+                        <option value="357">Kota Bontang</option>
+                      
+                        <option value="358">Kota Balikpapan</option>
+                      
+                        <option value="359">Kab. Mahakam Ulu</option>
+                      
+                        <option value="360">Kab. Penajam Paser Utara</option>
+                      
+                        <option value="361">Kab. Kutai Timur</option>
+                      
+                        <option value="362">Kab. Kutai Barat</option>
+                      
+                        <option value="363">Kab. Berau</option>
+                      
+                        <option value="364">Kab. Kutai Kertanegara</option>
+                      
+                        <option value="365">Kab. Pase</option>
+                      
+                        <option value="366">Kota Tarakan</option>
+                      
+                        <option value="367">Kab. Tana Tidung</option>
+                      
+                        <option value="368">Kab. Nunukan</option>
+                      
+                        <option value="369">Kab. Malinau</option>
+                      
+                        <option value="370">Kab. Bulunga</option>
+                      
+                        <option value="371">Kota Manado</option>
+                      
+                        <option value="372">Kota Tomohon</option>
+                      
+                        <option value="373">Kota Bitung</option>
+                      
+                        <option value="374">Kota Kotamobagu</option>
+                      
+                        <option value="375">Kab. Bolaang Mangondow Selatan</option>
+                      
+                        <option value="376">Kab. Bolaang Mangondow Timur</option>
+                      
+                        <option value="377">Kab. Kepulauan Siau Tagulandang Biaro</option>
+                      
+                        <option value="378">Kab. Bolaang Mangondow Utara</option>
+                      
+                        <option value="379">Kab. Minahasa Tenggara</option>
+                      
+                        <option value="380">Kab. Minahasa Utara</option>
+                      
+                        <option value="381">Kab. Minahasa Selatan</option>
+                      
+                        <option value="382">Kab. Kepulauan Talaud</option>
+                      
+                        <option value="383">Kab. Kepulauan Sangihe</option>
+                      
+                        <option value="384">Kab. Minahasa</option>
+                      
+                        <option value="385">Kab. Bolaang Mangondo</option>
+                      
+                        <option value="386">Kota Palu</option>
+                      
+                        <option value="387">Kab. Morowali Utara</option>
+                      
+                        <option value="388">Kab. Banggai Laut</option>
+                      
+                        <option value="389">Kab. Sigi</option>
+                      
+                        <option value="390">Kab. Tojo Una-Una</option>
+                      
+                        <option value="391">Kab. Parigi Moutong</option>
+                      
+                        <option value="392">Kab. Banggai Kepulauan</option>
+                      
+                        <option value="393">Kab. Morowali</option>
+                      
+                        <option value="394">Kab. Buol</option>
+                      
+                        <option value="395">Kab. Toli-Toli</option>
+                      
+                        <option value="396">Kab. Donggala</option>
+                      
+                        <option value="397">Kab. Poso</option>
+                      
+                        <option value="398">Kab. Bangga</option>
+                      
+                        <option value="399">Kota Makasar</option>
+                      
+                        <option value="400">Kota Palopo</option>
+                      
+                        <option value="401">Kota Pare Pare</option>
+                      
+                        <option value="402">Kab. Toraja Utara</option>
+                      
+                        <option value="403">Kab. Luwu Timur</option>
+                      
+                        <option value="404">Kab. Luwu Utara</option>
+                      
+                        <option value="405">Kab. Tana Toraja</option>
+                      
+                        <option value="406">Kab. Luwu</option>
+                      
+                        <option value="407">Kab. Enrekang</option>
+                      
+                        <option value="408">Kab. Pinrang</option>
+                      
+                        <option value="409">Kab. Sidenreng Rappang</option>
+                      
+                        <option value="410">Kab. Wajo</option>
+                      
+                        <option value="411">Kab. Soppeng</option>
+                      
+                        <option value="412">Kab. Barru</option>
+                      
+                        <option value="413">Kab. Pangkajene Kepulauan</option>
+                      
+                        <option value="414">Kab. Maros</option>
+                      
+                        <option value="415">Kab. Bone</option>
+                      
+                        <option value="416">Kab. Sinjai</option>
+                      
+                        <option value="417">Kab. Gowa</option>
+                      
+                        <option value="418">Kab. Takalar</option>
+                      
+                        <option value="419">Kab. Jeneponto</option>
+                      
+                        <option value="420">Kab. Bantaeng</option>
+                      
+                        <option value="421">Kab. Bulukumba</option>
+                      
+                        <option value="422">Kab. Kepulauan Selaya</option>
+                      
+                        <option value="423">Kota Kendari</option>
+                      
+                        <option value="424">Kota Bau Bau</option>
+                      
+                        <option value="425">Kab. Buton Selatan</option>
+                      
+                        <option value="426">Kab. Buton Tengah</option>
+                      
+                        <option value="427">Kab. Muna Barat</option>
+                      
+                        <option value="428">Kab. Konawe Kepulauan</option>
+                      
+                        <option value="429">Kab. Kolaka Timur</option>
+                      
+                        <option value="430">Kab. Buton Utara</option>
+                      
+                        <option value="431">Kab. Konawe Utara</option>
+                      
+                        <option value="432">Kab. Kolaka Utara</option>
+                      
+                        <option value="433">Kab. Wakatobi</option>
+                      
+                        <option value="434">Kab. Bombana</option>
+                      
+                        <option value="435">Kab. Konawe Selatan</option>
+                      
+                        <option value="436">Kab. Buton</option>
+                      
+                        <option value="437">Kab. Muna</option>
+                      
+                        <option value="438">Kab. Konawe</option>
+                      
+                        <option value="439">Kab. Kolak</option>
+                      
+                        <option value="440">Kota Gorontalo</option>
+                      
+                        <option value="441">Kab. Pohuwato</option>
+                      
+                        <option value="442">Kab. Bone Bolango</option>
+                      
+                        <option value="443">Kab. Boalemo</option>
+                      
+                        <option value="444">Kab. Gorontalo</option>
+                      
+                        <option value="445">Kab. Gorontalo Utar</option>
+                      
+                        <option value="446">Kab. Majene</option>
+                      
+                        <option value="447">Kab. Polowali Mandar</option>
+                      
+                        <option value="448">Kab. Mamasa</option>
+                      
+                        <option value="449">Kab. Mamuju</option>
+                      
+                        <option value="450">Kab. Mamuju Utara</option>
+                      
+                        <option value="451">Kab. Mamuju Tenga</option>
+                      
+                        <option value="452">Kota Ambon</option>
+                      
+                        <option value="453">Kota Tual</option>
+                      
+                        <option value="454">Kab. Buru Selatan</option>
+                      
+                        <option value="455">Kab. Maluku Barat Daya</option>
+                      
+                        <option value="456">Kab. Kepulauan Aru</option>
+                      
+                        <option value="457">Kab. Seram Bagian Barat </option>
+                      
+                        <option value="458">Kab. Seram Bagian Timur</option>
+                      
+                        <option value="459">Kab. Buru</option>
+                      
+                        <option value="460">Kab. Maluku Tenggara Barat</option>
+                      
+                        <option value="461">Kab. Maluku Tenggara</option>
+                      
+                        <option value="462">Kab. Maluku Tenga</option>
+                      
+                        <option value="463">Kota Ternate</option>
+                      
+                        <option value="464">Kota Tidore Kepulauan</option>
+                      
+                        <option value="465">Kab. Pulau Taliabu</option>
+                      
+                        <option value="466">Kab. Pulau Morotai</option>
+                      
+                        <option value="467">Kab. Halmahera Timur</option>
+                      
+                        <option value="468">Kab. Kepulauan Sula</option>
+                      
+                        <option value="469">Kab. Halmahera Selatan</option>
+                      
+                        <option value="470">Kab. Halmahera Utara</option>
+                      
+                        <option value="471">Kab. Halmahera Tengah</option>
+                      
+                        <option value="472">Kab. Halmahera Bara</option>
+                      
+                        <option value="473">Kota Jayapura</option>
+                      
+                        <option value="474">Kab. Deiyai</option>
+                      
+                        <option value="475">Kab. Intan Jaya</option>
+                      
+                        <option value="476">Kab. Dogiyai</option>
+                      
+                        <option value="477">Kab. Puncak</option>
+                      
+                        <option value="478">Kab. Nduga</option>
+                      
+                        <option value="479">Kab. Lanny Jaya</option>
+                      
+                        <option value="480">Kab. Yalimo</option>
+                      
+                        <option value="481">Kab. Mamberamo Tengah</option>
+                      
+                        <option value="482">Kab. Mamberamo Raya</option>
+                      
+                        <option value="483">Kab. Supiori</option>
+                      
+                        <option value="484">Kab. Asmat</option>
+                      
+                        <option value="485">Kab. Mappi</option>
+                      
+                        <option value="486">Kab. Boven Digoel</option>
+                      
+                        <option value="487">Kab. Waropen</option>
+                      
+                        <option value="488">Kab. Tolikara</option>
+                      
+                        <option value="489">Kab. Yahukimo</option>
+                      
+                        <option value="490">Kab. Pegunungan Bintang</option>
+                      
+                        <option value="491">Kab. Keerom</option>
+                      
+                        <option value="492">Kab. Sarmi</option>
+                      
+                        <option value="493">Kab. Mimika</option>
+                      
+                        <option value="494">Kab. Paniai</option>
+                      
+                        <option value="495">Kab. Puncak Jaya</option>
+                      
+                        <option value="496">Kab. Biak Numfor</option>
+                      
+                        <option value="497">Kab. Kepulauan Yapen</option>
+                      
+                        <option value="498">Kab. Nabire</option>
+                      
+                        <option value="499">Kab. Jayapura</option>
+                      
+                        <option value="500">Kab. Jayawijaya</option>
+                      
+                        <option value="501">Kab. Merauk</option>
+                      
+                        <option value="502">Kota Sorong</option>
+                      
+                        <option value="503">Kab. Pegunungan Arfak</option>
+                      
+                        <option value="504">Kab. Manokwari Selatan</option>
+                      
+                        <option value="505">Kab. Maybrat</option>
+                      
+                        <option value="506">Kab. Tambrauw</option>
+                      
+                        <option value="507">Kab. Kaimana</option>
+                      
+                        <option value="508">Kab. Teluk Wondama</option>
+                      
+                        <option value="509">Kab. Teluk Bintuni</option>
+                      
+                        <option value="510">Kab. Raja Ampat</option>
+                      
+                        <option value="511">Kab. Sorong Selatan</option>
+                      
+                        <option value="512">Kab. Fak Fak</option>
+                      
+                        <option value="513">Kab. Manokwari</option>
+                      
+                        <option value="514">Kab. Soron</option>
+                      </select><span class="select2 select2-container select2-container--default select2-container--below select2-container--focus" dir="ltr" style="width: 1198.66px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-city-container"><span class="select2-selection__rendered" id="select2-city-container" title="Pilih Kota">Pilih Kota</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+            </div>
+            <div class="form-group">
+            <label>Jenis Kendaraan</label>
+            <select id="vehicle_type" name="vehicle_type" class="custom-select" required="">
+            <option selected="">Pilih Jenis Kendaraan
+            Anda</option>
+            <option value="bike">Motor</option>
+            <option value="car">Mobil</option>
+            <option value="truck">Truck</option>
+            </select>
+            </div>
+            <div class="form-group">
+            <label>Merk &amp; Type &amp; Tahun Kendaraan</label>
+            <input id="vehicle" name="vehicle" type="text" class="form-control" placeholder="Masukan Jenis Kendaraan Anda">
+            </div>
+            <div id="buttonSubmit">
+            <button type="submit" class="btn btn-primary
+                                                    btn-block" id="buttonSubmit">
+            Hitung Simulasi
+            </button>
+            </div>
+            <p class="lead bold">Kerahasiaan data adalah prioritas kami.</p>
+            </form>
+            </div>
+            </div>
+            </div>
+            </section>
+            </main>
+</html>
