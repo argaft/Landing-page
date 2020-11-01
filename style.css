@@ -203,7 +203,7 @@
 }
 
 .footer {
-    height: 300px;
+    height: 320px;
     width: auto;
     background: #00d2ff;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
@@ -238,3 +238,21 @@
     margin-right;
     text-align: center;
 } */
+
+
+.sectionslide6 {
+    background-color: white;
+    width: auto;
+    height: 950px;
+}
+
+.sectionslide7 {
+    background-color: #f9f9f9;
+    width: auto;
+    height: 700px;
+}
+
+.sizeicon {
+    width: 70px;
+    height: 60px;    
+}
